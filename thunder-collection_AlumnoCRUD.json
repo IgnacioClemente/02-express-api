@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "AlumnoCRUD",
+    "collectionId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
+    "dateExported": "2024-08-12T23:57:25.056Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c0a2356e-dd2e-4e0e-847a-bce89e79bcb3",
+            "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
+            "containerId": "",
+            "name": "Crear Alumno",
+            "url": "localhost:3000/alumno",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-12T22:11:56.364Z",
+            "modified": "2024-08-12T23:44:30.465Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n    \"nombre\": \"Juan\",\n    \"apellido\": \"Clemente\",\n    \"curso\":  \"Programacion\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b84c4f6a-be80-41b9-af22-ffde979c99e8",
+            "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
+            "containerId": "",
+            "name": "Listar Alumnos",
+            "url": "localhost:3000/alumno",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-12T22:14:24.168Z",
+            "modified": "2024-08-12T22:14:38.148Z",
+            "headers": []
+        },
+        {
+            "_id": "0e34ec9b-6e42-4029-9d31-f91f5d98168b",
+            "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
+            "containerId": "",
+            "name": "Obtener Alumno",
+            "url": "localhost:3000/alumno/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-12T22:14:53.204Z",
+            "modified": "2024-08-12T23:43:15.471Z",
+            "headers": []
+        },
+        {
+            "_id": "3be8fd49-4ba1-49f2-9ef0-3895063ca44c",
+            "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
+            "containerId": "",
+            "name": "Actualizar Alumno",
+            "url": "localhost:3000/alumno/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-08-12T23:31:56.940Z",
+            "modified": "2024-08-12T23:41:42.410Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{ \n    \"nombre\": \"Murj\",\n    \"apellido\": \"Clemente\",\n    \"curso\":  \"Programacion\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "30a23270-6c4c-4204-8e2a-b11bdcd3bc7a",
+            "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
+            "containerId": "",
+            "name": "Borrar Alumno",
+            "url": "localhost:3000/alumno/1",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-08-12T23:33:04.932Z",
+            "modified": "2024-08-12T23:33:15.509Z",
+            "headers": []
+        }
+    ],
+    "ref": "uZBLlJCHCby6qwuD6vRsNauD3HjIGdcFCWaG7cXsxUlvtUHFgBir3gc2xPLVr9rLRsXqE-dAO8Hx9gzhkxZXIA"
+}

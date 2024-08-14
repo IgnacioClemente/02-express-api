@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "AlumnoCRUD",
     "collectionId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
-    "dateExported": "2024-08-12T23:57:25.056Z",
+    "dateExported": "2024-08-14T22:34:10.877Z",
     "version": "1.2",
     "folders": [],
     "requests": [
@@ -11,11 +11,11 @@
             "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
             "containerId": "",
             "name": "Crear Alumno",
-            "url": "localhost:3000/alumno",
+            "url": "localhost:3000/api/alumno",
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-08-12T22:11:56.364Z",
-            "modified": "2024-08-12T23:44:30.465Z",
+            "modified": "2024-08-14T22:18:35.206Z",
             "headers": [],
             "body": {
                 "type": "json",
@@ -28,11 +28,11 @@
             "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
             "containerId": "",
             "name": "Listar Alumnos",
-            "url": "localhost:3000/alumno",
+            "url": "localhost:3000/api/alumno",
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-08-12T22:14:24.168Z",
-            "modified": "2024-08-12T22:14:38.148Z",
+            "modified": "2024-08-14T22:18:46.773Z",
             "headers": []
         },
         {
@@ -40,11 +40,11 @@
             "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
             "containerId": "",
             "name": "Obtener Alumno",
-            "url": "localhost:3000/alumno/2",
+            "url": "localhost:3000/api/alumno/1",
             "method": "GET",
             "sortNum": 30000,
             "created": "2024-08-12T22:14:53.204Z",
-            "modified": "2024-08-12T23:43:15.471Z",
+            "modified": "2024-08-14T22:33:13.841Z",
             "headers": []
         },
         {
@@ -52,11 +52,11 @@
             "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
             "containerId": "",
             "name": "Actualizar Alumno",
-            "url": "localhost:3000/alumno/1",
+            "url": "localhost:3000/api/alumno/1",
             "method": "PUT",
             "sortNum": 40000,
             "created": "2024-08-12T23:31:56.940Z",
-            "modified": "2024-08-12T23:41:42.410Z",
+            "modified": "2024-08-14T22:18:57.618Z",
             "headers": [],
             "body": {
                 "type": "json",
@@ -69,13 +69,13 @@
             "colId": "d5b17c0a-33d6-46c9-a4d4-eed259c077dc",
             "containerId": "",
             "name": "Borrar Alumno",
-            "url": "localhost:3000/alumno/1",
+            "url": "localhost:3000/api/alumno/1",
             "method": "DELETE",
             "sortNum": 50000,
             "created": "2024-08-12T23:33:04.932Z",
-            "modified": "2024-08-12T23:33:15.509Z",
+            "modified": "2024-08-14T22:19:03.684Z",
             "headers": []
         }
     ],
-    "ref": "uZBLlJCHCby6qwuD6vRsNauD3HjIGdcFCWaG7cXsxUlvtUHFgBir3gc2xPLVr9rLRsXqE-dAO8Hx9gzhkxZXIA"
+    "ref": "uZBLlJCHCby6qwuD6vRsNX4vJg9IFO8WnpCeO9u1Z4MtN3wcGiewp9ssayOjtF2nTEMXlhNj3t8_Y_eoREu-vg"
 }
